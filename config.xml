@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>territory</name>
+	<displayName><![CDATA[Territory]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Add company territories.]]></description>
+	<author><![CDATA[Nascenia]]></author><author_uri><![CDATA[http://www.nascenia.com]]></author_uri>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
