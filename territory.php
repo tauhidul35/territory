@@ -30,7 +30,7 @@ class Territory extends Module
     public function __construct()
     {
         $this->name    = 'territory';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
 
         //module category
         $this->tab = 'administration';

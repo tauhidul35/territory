@@ -41,4 +41,13 @@ class TerritoryModel extends TerritoryCustomObjectModel
 			ORDER BY `name` ASC
 		');
     }
+
+    public static function getTerritoryWithId($id_territory) {
+        return Db::getInstance()->executeS('
+			SELECT `id_territory`, `name`, `description`
+			FROM `' ._DB_PREFIX_. 'territory` t
+			WHERE `active` = 1 AND t.`id_territory` = '.$id_territory.'
+			ORDER BY `name` ASC
+		');
+    }
 }
